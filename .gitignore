@@ -1,0 +1,13 @@
+# Local environment with dev credentials — never commit
+.env
+
+# Python tooling venv
+.venv/
+
+# Generated demo images (reproducible via scripts/make_*_images.py)
+/assets/before/
+/assets/after/
+
+# Anything exported during measurement runs
+/exports/
+/_local/

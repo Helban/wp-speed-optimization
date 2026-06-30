@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greenfield Landscaping, garden design and lawn care</title>
+<meta name="description" content="Greenfield Landscaping designs, plants and maintains gardens, lawns and patios across the Tri-Valley. Get a free quote.">
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" type="image/avif" imagesrcset="img/hero-800.avif 800w, img/hero-1100.avif 1100w" imagesizes="100vw" fetchpriority="high">
+<style>
+  :root{
+    --green:#2f7d32; --green-dark:#1d4e22; --cta:#1c6b27; --cta-hover:#155020;
+    --ink:#1f2a24; --muted:#52635a; --line:#e3e9e2; --soft:#f4f7f2; --white:#fff;
+    --wrap:1140px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; color:var(--ink); background:var(--white);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  img{display:block; max-width:100%; height:auto}
+  a{color:var(--green); text-decoration:none}
+  h1,h2,h3{line-height:1.2; margin:0 0 .4em}
+  .wrap{max-width:var(--wrap); margin:0 auto; padding:0 20px}
+
+  .site-header{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.95);
+    border-bottom:1px solid var(--line); backdrop-filter:saturate(120%) blur(4px)}
+  .site-header .wrap{display:flex; align-items:center; justify-content:space-between; min-height:64px; gap:16px}
+  .brand{font-weight:700; font-size:1.15rem; color:var(--green-dark); letter-spacing:.2px}
+  .brand span{color:var(--green)}
+  .nav{display:flex; gap:22px; align-items:center}
+  .nav a{color:var(--ink); font-weight:500; font-size:.95rem}
+  .nav a:hover{color:var(--green)}
+  .nav .btn{color:#fff}
+  .btn{display:inline-block; background:var(--cta); color:#fff; font-weight:600;
+    padding:11px 20px; border-radius:6px; border:0; cursor:pointer; font-size:1rem}
+  .btn:hover{background:var(--cta-hover)}
+
+  .hero{position:relative; min-height:74vh; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden}
+  .hero-img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2}
+  .hero::after{content:""; position:absolute; inset:0; z-index:-1;
+    background:linear-gradient(180deg,rgba(15,30,17,.62),rgba(15,30,17,.52))}
+  .hero-inner{color:#fff; padding:90px 20px; max-width:760px}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem); color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.4)}
+  .hero p{font-size:clamp(1rem,2.4vw,1.3rem); margin:0 0 1.4em; color:#fff}
+  .hero .btn{font-size:1.1rem; padding:13px 26px}
+
+  section{padding:70px 0}
+  .section-soft{background:var(--soft)}
+  h2{font-size:clamp(1.6rem,3.5vw,2.1rem); color:var(--green-dark)}
+  .lead{color:var(--muted)}
+
+  .about{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center}
+  .about img{border-radius:8px}
+
+  .services h2{text-align:center; margin-bottom:34px}
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:26px}
+  .card{background:#fff; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+  .card img{width:100%; aspect-ratio:3/2; object-fit:cover}
+  .card h3{margin:0; padding:16px 18px; font-size:1.1rem; color:var(--green-dark)}
+
+  .contact{max-width:640px; margin:0 auto; text-align:center}
+  .contact h2{margin-bottom:6px}
+  form{margin-top:26px; text-align:left}
+  .field{margin-bottom:16px}
+  label{display:block; font-size:.9rem; font-weight:600; margin-bottom:6px}
+  input,textarea{width:100%; padding:12px 14px; border:1px solid #c4cfc6;
+    border-radius:6px; font:inherit; background:#fff; color:var(--ink)}
+  textarea{min-height:130px; resize:vertical}
+  .contact .btn{margin-top:6px}
+
+  footer{background:#16241a; color:#dde6df; text-align:center; padding:26px 20px; font-size:.9rem}
+
+  @media (max-width:780px){
+    .nav a:not(.btn){display:none}
+    .about{grid-template-columns:1fr; gap:26px}
+    .cards{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">Greenfield <span>Landscaping</span></div>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="#contact">Get a free quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <picture>
+    <source type="image/avif" srcset="img/hero-800.avif 800w, img/hero-1100.avif 1100w" sizes="100vw">
+    <source type="image/webp" srcset="img/hero-800.webp 800w, img/hero-1100.webp 1100w" sizes="100vw">
+    <img class="hero-img" src="img/hero-1100.webp" width="1100" height="825" alt="A lush garden path lined with greenery and flowers" fetchpriority="high">
+  </picture>
+  <div class="hero-inner">
+    <h1>Greenfield Landscaping</h1>
+    <p>Garden design, lawn care and patios across the Tri-Valley.</p>
+    <a class="btn" href="#contact">Get a free quote</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <h2>Your garden, properly looked after</h2>
+      <p>Greenfield Landscaping has shaped gardens, lawns and outdoor living spaces for homeowners and small businesses since 2009. From a single flower bed to a full backyard rebuild, we plan it, plant it and maintain it. Our crews show up on time, clean up after themselves, and stand behind the work.</p>
+      <p class="lead">Design, planting, irrigation, lawn care, patios and seasonal maintenance, all from one local team.</p>
+    </div>
+    <picture>
+      <source type="image/avif" srcset="img/lawn-760.avif">
+      <source type="image/webp" srcset="img/lawn-760.webp">
+      <img src="img/lawn-760.webp" width="760" height="1012" alt="A planted garden bed with shrubs and flowers" loading="lazy">
+    </picture>
+  </div>
+</section>
+
+<section id="services" class="section-soft services">
+  <div class="wrap">
+    <h2>What we do</h2>
+    <div class="cards">
+      <article class="card">
+        <picture>
+          <source type="image/avif" srcset="img/patio-700.avif">
+          <source type="image/webp" srcset="img/patio-700.webp">
+          <img src="img/patio-700.webp" width="700" height="467" alt="A paved patio with wooden benches" loading="lazy">
+        </picture>
+        <h3>Patios &amp; paving</h3>
+      </article>
+      <article class="card">
+        <picture>
+          <source type="image/avif" srcset="img/flowers-700.avif">
+          <source type="image/webp" srcset="img/flowers-700.webp">
+          <img src="img/flowers-700.webp" width="700" height="1050" alt="Flower beds in full bloom" loading="lazy">
+        </picture>
+        <h3>Planting &amp; beds</h3>
+      </article>
+      <article class="card">
+        <picture>
+          <source type="image/avif" srcset="img/trees-700.avif">
+          <source type="image/webp" srcset="img/trees-700.webp">
+          <img src="img/trees-700.webp" width="700" height="1050" alt="Mature trees and green hedges in a park" loading="lazy">
+        </picture>
+        <h3>Trees &amp; hedges</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <h2>Get a free quote</h2>
+    <p class="lead">Tell us about your garden and we will get back to you within one working day.</p>
+    <form action="#" method="post" novalidate>
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="message">What do you need?</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button class="btn" type="submit">Send request</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  Greenfield Landscaping, Tri-Valley. Hand-coded demo, no page builder.
+  <a href="../" style="color:#9fd3a6;text-decoration:underline">See the speed case study</a>.
+</footer>
+
+</body>
+</html>
