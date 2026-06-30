@@ -14,6 +14,9 @@ Page weight drops 77% in place and 91% with the rebuild. All three render the sa
 full-width landing; only the build and the speed differ. Full write-up in
 [`RESULTS.md`](RESULTS.md); raw Lighthouse reports in [`rebuild/reports/`](rebuild/reports/).
 
+Live: case study at <https://wp-speed.helban.dev/>, the lean demo at
+<https://wp-speed.helban.dev/demo/> (run it through PageSpeed Insights yourself).
+
 The brand (Greenfield Landscaping) is fictional. Photos are from Pexels (free license).
 
 ## What is in here
